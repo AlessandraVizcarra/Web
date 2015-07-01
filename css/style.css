@@ -479,6 +479,35 @@
 			{
 				background-color: #C88DD5;
 			}
+			
+			/* Tab Cursos*/
+	.tabCurs
+	{
+		background-color: ;
+	}
+	.tabCurs ul button
+	{
+		display: inline-block;
+		width: 250px;
+		margin:0.5em;
+		padding: 1em;
+		border-radius: 5px;
+		font-size: 16px;
+	}
+	#tab1
+	{
+		display: inline-block;
+	}
+	#tab2
+	{
+		display: none;
+	}
+	#tab3
+	{
+		display: none;
+	}		
+
+
 		
 	/* Item */
 	

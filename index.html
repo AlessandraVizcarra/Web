@@ -120,7 +120,7 @@
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" width="105%" height="100" /></a>
+										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" width="105%" height="61" /></a>
 										<header>
 											<h3>Design of the prototipe</h3>
 										</header>
@@ -168,12 +168,55 @@
 								<h2>Courses</h2>
 							</header>
 							
+	<script>
+								function tab1() 
+								{
+   		 						document.getElementById("tab1").style.display = "inline-block";
+   		 						document.getElementById("tab2").style.display = "none";
+   		 						document.getElementById("tab3").style.display = "none";
+								}
+								function tab2() 
+								{
+   		 						document.getElementById("tab1").style.display = "none";
+   		 						document.getElementById("tab2").style.display = "inline-block";
+   		 						document.getElementById("tab3").style.display = "none";
+								}
+								function tab3() 
+								{
+   		 						document.getElementById("tab1").style.display = "none";
+   		 						document.getElementById("tab2").style.display = "none";
+   		 						document.getElementById("tab3").style.display = "inline-block";
+								}
+							</script>
 							<p> Operations Research I </p>
-                            Operations Research is a discipline that deals with the application of advanced analytical methods to help make better decisions employing techniques from other mathematical sciences, such as mathematical modeling, statistical analysis, and mathematical optimization, operations research arrives at optimal or near-optimal solutions to complex decision-making problems. It is often concerned with determining a maximum (such as profit, performance, or yield) or minimum (such as loss, risk, or cost.)</p>
-                            
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GKzETnXQV_g" frameborder="0" allowfullscreen></iframe>
+							<div class="tabCurs">
+								<nav>
+									<ul>
+										<button onclick="tab1()" class="button scrolly">
+											Introduction
+										</button>
+										<button onclick="tab2()" class="button scrolly">
+											Transportation method
+										</button>
+										<button onclick="tab3()" class="button scrolly">
+											Aggregate Planning - example
+										</button>
+									</ul>
+								</nav>
+							</div>
+							<span id="tab1">
+								Operations Research is a discipline that deals with the application of advanced analytical methods to help make better decisions employing techniques from other mathematical sciences, such as mathematical modeling, statistical analysis, and mathematical optimization, operations research arrives at optimal or near-optimal solutions to complex decision-making problems. It is often concerned with determining a maximum (such as profit, performance, or yield) or minimum (such as loss, risk, or cost.)</p>
+							</span>
+							<span id="tab2">
+								<strong>Tutorial about transportation method with lingo.</strong>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/GKzETnXQV_g" frameborder="0" allowfullscreen></iframe>
+							</span>
+							<!-- Aqui cambias las diapositivas -->
+							<span id="tab3">
+								<iframe src="https://docs.google.com/a/utec.edu.pe/presentation/d/17FxCLD7x-RU01ItnszK63Ti7pldqigBn3ymCxSbj1uA/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+							</span>
 
-					</div>
+									</div>
 					</section>
 
 				<!-- About Me -->
