@@ -506,6 +506,14 @@
 	{
 		display: none;
 	}		
+	#tab4
+	{
+		display: none;
+	}	
+	#tab5
+	{
+		display: none;
+	}	
 
 
 		
@@ -573,10 +581,10 @@
 	
 		#header .top
 		{
-			position: absolute;
-			left: 0;
-			top: 0;
-			width: 100%;
+	position: absolute;
+	left: 0;
+	top: -1px;
+	width: 100%;
 		}
 	
 		#header .bottom
